@@ -1,0 +1,1072 @@
+{
+  "layer": {
+    "name": "BERRA_AI_TEGOLATO_01",
+    "index": 23
+  },
+  "beamCount": 132,
+  "createdCount": 132,
+  "createResult": {
+    "elements": [
+      {
+        "elementId": {
+          "guid": "762B0FAE-1491-405F-9F00-B0B4C0B2E8F9"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "EEBCA3B7-85F7-4558-BA87-D442FE0B8156"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "02ED5744-E55E-43C4-A563-8919839A60D8"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "233AC7BA-5E58-4C24-919F-7FB10FA585B8"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "DEBC0B6F-43CF-45DC-9FC0-922D49D6192C"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "F5CA3B68-F6E0-4B67-BCCB-C08A07061DD9"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "93306149-7D60-42CC-A54C-128B15C27110"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "7D244511-F523-4FE1-8B02-3BED1944B32C"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "93F51167-E92B-47CA-8E2E-85BA5AC2322C"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "54002E82-DB67-40A1-87FE-91AF123A2139"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "7FE0C52C-E060-4193-B21D-AF2FD4BD7DB7"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "918371EF-FBDA-46A4-9920-BA19AA006D0F"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "1DC467FD-5D4D-421F-8B4A-45F51F4BDD1F"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "9908B683-ACD2-4BAD-A888-7DC0BFA80783"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "D7278658-8014-4206-B80C-A25B3061EB52"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "22E3B8AA-2BF5-41B8-B589-BDFD40F12941"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "72DC2109-EE45-4738-9D77-42FEC72A61ED"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "7A6BA666-69D0-40E6-BD6B-E17E74A10EF9"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "EBE5D597-7DCA-4117-B34D-238456B9E064"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "452A5566-5452-4543-8A3B-CAA253ED17D3"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "0720B611-4805-41F0-9EB0-731700EDB40C"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "1A3D7283-E383-497B-A3D8-90A9679F14DE"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "BFB914A2-B998-4FDD-A4FA-6D0EE9399E8A"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "6B94A5EC-7EE4-4431-905C-3D353A5B3891"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "44C27FF7-32A0-4451-8F6F-E80DCC38896B"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "59E1779C-76CA-4DA1-8894-11915BD9A114"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "0AC747DA-DA23-4D2B-9D05-21FD79D7457F"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "7B48ED45-A58B-479E-91BD-6673942B386F"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "5E86C055-8CB2-4519-A215-22D098C1F2BE"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "A9FF8469-5EF6-4B65-AEAF-BB4287082B42"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "EB98EA6F-F8D2-40A6-8B08-52B9A6DCCD97"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "7BA65896-9931-4552-9436-E556F4CC6C39"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "68BC76FF-AF60-41BA-91FE-CBD1F9A342F4"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "34FE98CF-AB25-469C-8860-225D4C36FEA5"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "C6E173DE-2CB0-4CAC-9CE5-426232328CD1"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "72A03385-F352-4767-8DAB-AFAC70E3C92C"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "507AF9C7-0C10-425A-84BF-29F3D3FAE37A"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "C809501D-2A86-484D-AFE4-699945B7BC21"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "35124E71-4906-4EBF-95DD-C8E2E71C0255"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "D3E07AA0-C24F-463D-891A-10DA0309B894"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "4E1871AF-7539-4C9B-A076-DD7203E14297"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "3020D895-C9A8-432F-B0C0-6218E0DF0599"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "5D1138F0-F739-495C-B0AD-C90F9BB8B257"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "456E99F2-2134-45A5-9BA4-6A728240167A"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "9BFDA7DE-D299-4A57-8FFA-40E4B9505542"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "30A68257-DC04-4A4A-A5B5-293C479534AD"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "D411ADEF-5D16-400F-A22D-99F4EF5B936B"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "87D995A8-6D37-4D89-AC79-F3C8D0B3FF9E"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "663A0398-FB20-462D-8737-853238A137E1"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "23B2FAAA-A62B-4453-969D-8DDCD0CA684A"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "5672595E-53EB-4B42-A6DB-170B6849FB6D"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "3F36E863-659B-4A13-B4F1-6676D26B8925"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "A18D1A56-8756-431A-9F32-13DB99830CAD"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "CAC05C71-2D96-411B-9E2E-444379BFC03F"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "6D305BF5-A698-4BCF-B042-FAB608166FEC"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "7D01FECB-ABDC-4D22-9790-007EFC8DE636"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "112646EB-AAF3-4A61-8C2B-3D5FABF4F9DA"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "F75E7F28-F9EC-4BE2-8973-6F1CD8AD3213"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "4E37B566-2D1D-4B3D-92A0-05CE692ACA32"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "8E58D56E-56EF-4F0F-B717-F849841E9297"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "6EE6986A-A668-4E52-BFDE-E596BEE5E4AE"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "F5D3E395-FB4E-4143-A619-72B9F5E720E1"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "1E5FB90F-8382-4877-9A4B-721654290DE2"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "2D53E288-0862-4A0F-9A34-C3BB9EBA652C"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "615BCC29-1214-4A04-AEAC-B352AE7E3E36"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "2643F895-73B8-46DD-AB21-0C4266108A8E"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "8DB0F525-351E-49AA-A7DB-5E9EBBB48CF8"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "50D6D7C9-7F14-40BA-950B-50C47BBC8AA3"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "256071BD-8914-4DD3-88D8-7BD0BDA16AED"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "5EECDD0D-1725-43D2-9FD0-11AE7E85CDB9"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "43A10A6D-1799-4F75-AB80-A2F63277B10F"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "6FF32A0C-8AFB-4413-B638-2DD4466139EC"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "3A486721-580C-466A-96FE-B6E6D5DC00DD"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "16033E73-1E68-4F68-9E93-512E8928C068"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "CD6BC891-2FF3-4EC4-8E47-4449768F2646"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "BCA4031A-2AAD-49F4-AA69-57A0010AEE06"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "1696E528-6B35-4F5E-B6D0-A91DD6C64A7E"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "1352C047-B50F-4575-AC4B-73F392F0DA19"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "23D1EF11-5121-454D-BA14-EAA4A6DAEC79"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "DFE5BB0E-8756-4C70-9553-FACD8922267D"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "BA2540D0-3818-4C5F-B5C0-7C4764905042"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "DA7B20CA-939A-4F11-BB8B-670328931BEC"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "A54AAE7B-1728-486E-A8D2-EE4D6AFEEC92"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "12B45294-5BE6-4A14-943A-B5490D6E05E1"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "2B296C4A-227C-4FA8-8144-0E786081B13E"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "E6D1A895-247E-40B5-892E-4BF5DBE53B10"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "867878C5-62DD-4291-AF26-F7FDE3616E53"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "B2376080-A61C-4A13-B3AF-0B05C173174A"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "A315D6CC-699C-4B0E-8890-4D2C5472B277"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "395A417F-472F-45E7-98CA-D2240FA65456"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "F02F17A7-FB63-470B-903D-D65EF6754842"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "E71E90D8-EC62-472E-93A7-DD560CE9D5E3"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "89A4EF15-1C83-48B6-8435-DA3814CBA023"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "6851B801-6E71-47B4-9397-2E9EBF89F41D"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "96B29FA9-441A-4681-BBB3-5E85E4303EE7"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "4CF294EB-37E4-47A2-9ACA-FDD827917E81"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "374F4AE7-9D46-42E7-A740-4A4C7E7981FE"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "4D77D9F5-1833-4F1F-8128-DF51B44AF87E"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "4E2EEBBD-8B8A-4AD6-B57C-836F83F2F789"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "C2093BC8-C864-4C22-9224-DA319FE5DDCD"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "6E78E04F-1213-430C-836C-5CCEC7F3F4AC"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "34109394-4898-47D9-997B-1BA18AFAAA8D"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "2AA18F3A-AC13-4208-8801-25CA21B6BE4F"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "96A130E6-5F26-46FC-96AB-533C5849435E"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "E2027D3E-67C4-44E3-B5AD-8550CAF3E1A8"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "79CDBF88-DF82-4D4E-A020-084076B8C519"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "FFD864B9-80C6-4E85-9575-09CB0DB49B55"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "5BC1BF12-1CED-47CC-9D75-53507285D23C"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "EF213479-9021-4C04-853E-6DF20484A04A"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "829F0BF0-6B73-41F2-A2D6-BCAEE64C3C84"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "4F431DFD-1E86-47F0-8B69-0D065E256937"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "60C9D0CD-9DA5-4002-9AB5-435D303B2EB9"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "7FF4FD42-757F-49BB-9C81-03B4E99B5D0D"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "59F1C0D5-915F-446E-8E0E-C0F73592CF3E"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "9B0FCAC5-3ABB-4BDB-9D42-76309FA5B974"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "B312074F-18BD-48B0-A0CF-37B88F254FA3"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "64B99A37-2282-4E1C-9C2B-811516AD1195"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "9F7ACC6C-A4D3-492F-888F-039F56F92346"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "FADA9AB7-7A35-4928-885C-3A96E99CB1B8"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "A83BE450-2EA5-4F89-BF9D-2C105DF3D528"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "EAAE644E-C63B-4B2C-942B-9AF9371B316F"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "8B659424-C570-4589-8E5F-3DA0DA1F9F85"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "49F8D5FB-0336-491A-92BE-DD587468B7F8"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "65BBC181-B63B-47A2-A11F-0D744EAFCD91"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "4AEA5F51-12F7-4544-8B29-F8747C9C8B32"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "E7B1D8F5-6FC3-401F-8502-C3A0B5F0EF65"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "8124291D-0E6A-444B-9ACA-D2A57EDE0EFC"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "A950CD26-D4E8-4C6E-8AA0-C3597F6CEDB5"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "43B84384-5631-4B58-AFC4-BFD0C1BAD71B"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "F1EA5CCB-D315-45AE-9E85-A6BF2684EDCB"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "F6ABAC85-064F-4424-8C51-5F9B139F5194"
+        }
+      },
+      {
+        "elementId": {
+          "guid": "4B6977B1-BC0D-4C31-A31C-1AE80EEB6EC8"
+        }
+      }
+    ]
+  },
+  "setLayerResult": {
+    "executionResults": [
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      },
+      {
+        "success": true
+      }
+    ]
+  }
+}

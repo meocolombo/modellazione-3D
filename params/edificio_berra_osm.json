@@ -1,0 +1,3156 @@
+{
+  "commessa": {
+    "indirizzo": "Via Domenico Berra 10/12/14",
+    "comune": "Milano",
+    "stato": "Italia"
+  },
+  "acquisizione": {
+    "data": "2026-10-21",
+    "fonti": [
+      "nominatim.openstreetmap.org",
+      "overpass-api.de"
+    ],
+    "licenza": "© OpenStreetMap contributors, ODbL 1.0",
+    "stato_dato": "A-DOCUMENTATO (fonte pubblica) per impronta/tag; B-DEDOTTO per dimensioni metriche e associazione civico→edificio; DA VERIFICARE con rilievo/foto.",
+    "incertezza_stimata_m": "1-5 (tipica OSM)"
+  },
+  "origine_locale": {
+    "lat": 45.5084248,
+    "lon": 9.2487465,
+    "nota": "origine XY = posizione geocodificata civico 12"
+  },
+  "civici": [
+    {
+      "civico": "10",
+      "fonte_punto": "nominatim:node/8879872475",
+      "lat": 45.5087633,
+      "lon": 9.2486748,
+      "edificio_way_id": 655422096,
+      "metodo_associazione": "prossimità",
+      "distanza_m": 9.56
+    },
+    {
+      "civico": "12",
+      "fonte_punto": "nominatim:node/8879872480",
+      "lat": 45.5084248,
+      "lon": 9.2487465,
+      "edificio_way_id": 95799995,
+      "metodo_associazione": "prossimità",
+      "distanza_m": 7.99
+    },
+    {
+      "civico": "14",
+      "fonte_punto": "nominatim:node/8879872481",
+      "lat": 45.5079817,
+      "lon": 9.2487418,
+      "edificio_way_id": null,
+      "metodo_associazione": null,
+      "distanza_m": null
+    }
+  ],
+  "edifici_associati": [
+    {
+      "way_id": 95799995,
+      "url": "https://www.openstreetmap.org/way/95799995",
+      "tags": {
+        "building": "apartments",
+        "building:levels": "2",
+        "building:material": "concrete",
+        "building:colour": "#D3D3D3"
+      },
+      "vertici_m": [
+        [
+          21.188,
+          -31.735
+        ],
+        [
+          9.834,
+          -31.268
+        ],
+        [
+          6.639,
+          23.24
+        ],
+        [
+          16.746,
+          23.584
+        ],
+        [
+          19.489,
+          18.592
+        ],
+        [
+          20.144,
+          9.874
+        ],
+        [
+          29.409,
+          10.475
+        ],
+        [
+          30.017,
+          0.167
+        ],
+        [
+          21.079,
+          -0.489
+        ],
+        [
+          21.624,
+          -11.831
+        ],
+        [
+          22.45,
+          -11.831
+        ],
+        [
+          23.323,
+          -22.75
+        ],
+        [
+          20.307,
+          -22.962
+        ]
+      ],
+      "lati_m": [
+        11.36,
+        54.6,
+        10.11,
+        5.7,
+        8.74,
+        9.28,
+        10.33,
+        8.96,
+        11.36,
+        0.83,
+        10.95,
+        3.02,
+        8.82
+      ],
+      "area_m2": 789.8,
+      "perimetro_m": 154.06
+    },
+    {
+      "way_id": 655422096,
+      "url": "https://www.openstreetmap.org/way/655422096",
+      "tags": {
+        "building": "residential",
+        "building:levels": "2",
+        "building:material": "concrete",
+        "building:colour": "#FFE4C4"
+      },
+      "vertici_m": [
+        [
+          13.458,
+          48.403
+        ],
+        [
+          14.502,
+          43.388
+        ],
+        [
+          4.263,
+          40.041
+        ],
+        [
+          -5.564,
+          55.097
+        ],
+        [
+          -6.187,
+          60.735
+        ],
+        [
+          -3.055,
+          61.991
+        ],
+        [
+          -1.387,
+          57.599
+        ],
+        [
+          17.011,
+          64.293
+        ],
+        [
+          19.731,
+          56.342
+        ],
+        [
+          5.307,
+          49.871
+        ],
+        [
+          6.351,
+          47.147
+        ]
+      ],
+      "lati_m": [
+        5.12,
+        10.77,
+        17.98,
+        5.67,
+        3.37,
+        4.7,
+        19.58,
+        8.4,
+        15.81,
+        2.92,
+        7.22
+      ],
+      "area_m2": 318.7,
+      "perimetro_m": 101.54
+    }
+  ],
+  "altri_edifici_nel_raggio": [
+    {
+      "way_id": 95797116,
+      "tags": {
+        "building": "yes",
+        "building:levels": "2"
+      },
+      "area_m2": 295.9
+    },
+    {
+      "way_id": 95797117,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "9"
+      },
+      "area_m2": 280.2
+    },
+    {
+      "way_id": 95797118,
+      "tags": {
+        "building": "yes",
+        "building:levels": "2",
+        "addr:street": "Via privata Antonio Meucci"
+      },
+      "area_m2": 507.9
+    },
+    {
+      "way_id": 95797124,
+      "tags": {
+        "building": "yes",
+        "building:levels": "2"
+      },
+      "area_m2": 413.0
+    },
+    {
+      "way_id": 95798691,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "5"
+      },
+      "area_m2": 555.1
+    },
+    {
+      "way_id": 95798703,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "4"
+      },
+      "area_m2": 339.6
+    },
+    {
+      "way_id": 95798709,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "4"
+      },
+      "area_m2": 338.5
+    },
+    {
+      "way_id": 95798710,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "7"
+      },
+      "area_m2": 442.6
+    },
+    {
+      "way_id": 95799105,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "6"
+      },
+      "area_m2": 285.4
+    },
+    {
+      "way_id": 95799981,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "2"
+      },
+      "area_m2": 297.7
+    },
+    {
+      "way_id": 95800004,
+      "tags": {
+        "building": "yes",
+        "building:levels": "3"
+      },
+      "area_m2": 222.8
+    },
+    {
+      "way_id": 95800580,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "6"
+      },
+      "area_m2": 206.5
+    },
+    {
+      "way_id": 95801430,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "6",
+        "roof:shape": "flat"
+      },
+      "area_m2": 724.0
+    },
+    {
+      "way_id": 95801435,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "7",
+        "roof:shape": "hipped"
+      },
+      "area_m2": 260.8
+    },
+    {
+      "way_id": 95801438,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "8",
+        "roof:shape": "mansard"
+      },
+      "area_m2": 504.7
+    },
+    {
+      "way_id": 95801441,
+      "tags": {
+        "building": "yes",
+        "building:levels": "3"
+      },
+      "area_m2": 308.8
+    },
+    {
+      "way_id": 95801443,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "5"
+      },
+      "area_m2": 258.8
+    },
+    {
+      "way_id": 95801446,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "5",
+        "roof:shape": "quadruple_saltbox"
+      },
+      "area_m2": 387.1
+    },
+    {
+      "way_id": 95801447,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "5"
+      },
+      "area_m2": 300.7
+    },
+    {
+      "way_id": 95801633,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "8"
+      },
+      "area_m2": 372.4
+    },
+    {
+      "way_id": 95801634,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "6"
+      },
+      "area_m2": 240.1
+    },
+    {
+      "way_id": 110538357,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "4"
+      },
+      "area_m2": 363.5
+    },
+    {
+      "way_id": 110538360,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "6",
+        "roof:shape": "mansard"
+      },
+      "area_m2": 450.9
+    },
+    {
+      "way_id": 110538361,
+      "tags": {
+        "building": "yes",
+        "building:levels": "3"
+      },
+      "area_m2": 651.3
+    },
+    {
+      "way_id": 110538364,
+      "tags": {
+        "building": "yes",
+        "building:levels": "2"
+      },
+      "area_m2": 138.3
+    },
+    {
+      "way_id": 110538365,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "5"
+      },
+      "area_m2": 417.8
+    },
+    {
+      "way_id": 110538366,
+      "tags": {
+        "building": "yes",
+        "building:levels": "2"
+      },
+      "area_m2": 143.1
+    },
+    {
+      "way_id": 110538367,
+      "tags": {
+        "building": "apartments"
+      },
+      "area_m2": 725.4
+    },
+    {
+      "way_id": 110538368,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "7"
+      },
+      "area_m2": 267.3
+    },
+    {
+      "way_id": 110538371,
+      "tags": {
+        "building": "detached",
+        "building:levels": "1",
+        "roof:shape": "mansard"
+      },
+      "area_m2": 214.6
+    },
+    {
+      "way_id": 110538373,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "7",
+        "roof:shape": "double_saltbox"
+      },
+      "area_m2": 1317.7
+    },
+    {
+      "way_id": 110538374,
+      "tags": {
+        "building": "apartments"
+      },
+      "area_m2": 293.0
+    },
+    {
+      "way_id": 110538375,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 144.5
+    },
+    {
+      "way_id": 110538376,
+      "tags": {
+        "building": "yes",
+        "building:levels": "3"
+      },
+      "area_m2": 802.9
+    },
+    {
+      "way_id": 110538377,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "9",
+        "roof:shape": "hipped"
+      },
+      "area_m2": 744.6
+    },
+    {
+      "way_id": 110538379,
+      "tags": {
+        "building": "apartments"
+      },
+      "area_m2": 740.3
+    },
+    {
+      "way_id": 110538380,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 109.0
+    },
+    {
+      "way_id": 110538381,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "5",
+        "roof:shape": "mansard"
+      },
+      "area_m2": 394.6
+    },
+    {
+      "way_id": 110538383,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "9",
+        "roof:shape": "hipped"
+      },
+      "area_m2": 1443.5
+    },
+    {
+      "way_id": 110538385,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "7"
+      },
+      "area_m2": 264.0
+    },
+    {
+      "way_id": 110538386,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 237.5
+    },
+    {
+      "way_id": 110538387,
+      "tags": {
+        "building": "commercial",
+        "building:levels": "3",
+        "roof:shape": "flat"
+      },
+      "area_m2": 386.3
+    },
+    {
+      "way_id": 110538389,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "4"
+      },
+      "area_m2": 455.6
+    },
+    {
+      "way_id": 110538391,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "9",
+        "roof:shape": "flat"
+      },
+      "area_m2": 4256.9
+    },
+    {
+      "way_id": 110538393,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "9",
+        "roof:shape": "mansard"
+      },
+      "area_m2": 245.8
+    },
+    {
+      "way_id": 110538394,
+      "tags": {
+        "building": "detached",
+        "building:levels": "1"
+      },
+      "area_m2": 178.8
+    },
+    {
+      "way_id": 110539159,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "6"
+      },
+      "area_m2": 845.1
+    },
+    {
+      "way_id": 110539165,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 152.5
+    },
+    {
+      "way_id": 110539171,
+      "tags": {
+        "building": "house",
+        "building:levels": "1"
+      },
+      "area_m2": 92.5
+    },
+    {
+      "way_id": 117461668,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "7",
+        "roof:shape": "flat"
+      },
+      "area_m2": 1612.2
+    },
+    {
+      "way_id": 136543712,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 162.1
+    },
+    {
+      "way_id": 136545857,
+      "tags": {
+        "building": "yes",
+        "building:levels": "3"
+      },
+      "area_m2": 142.6
+    },
+    {
+      "way_id": 142386622,
+      "tags": {
+        "building": "yes",
+        "building:levels": "5"
+      },
+      "area_m2": 239.3
+    },
+    {
+      "way_id": 142386624,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "5"
+      },
+      "area_m2": 266.3
+    },
+    {
+      "way_id": 142386626,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "6"
+      },
+      "area_m2": 514.2
+    },
+    {
+      "way_id": 142386627,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 531.8
+    },
+    {
+      "way_id": 142386631,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 219.3
+    },
+    {
+      "way_id": 170874067,
+      "tags": {
+        "building": "substation",
+        "building:levels": "1",
+        "roof:shape": "mansard",
+        "building:material": "concrete"
+      },
+      "area_m2": 1283.8
+    },
+    {
+      "way_id": 256585608,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "8"
+      },
+      "area_m2": 519.4
+    },
+    {
+      "way_id": 256585609,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "5",
+        "roof:shape": "flat",
+        "building:material": "brick",
+        "building:colour": "#CC7722"
+      },
+      "area_m2": 338.2
+    },
+    {
+      "way_id": 256585610,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "5"
+      },
+      "area_m2": 280.7
+    },
+    {
+      "way_id": 256585611,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "7",
+        "roof:shape": "flat",
+        "building:material": "brick",
+        "building:colour": "#CC7722"
+      },
+      "area_m2": 354.8
+    },
+    {
+      "way_id": 263997665,
+      "tags": {
+        "building": "church",
+        "addr:street": "Via Domenico Berra"
+      },
+      "area_m2": 1194.9
+    },
+    {
+      "way_id": 307784338,
+      "tags": {
+        "building": "yes",
+        "building:levels": "1"
+      },
+      "area_m2": 522.3
+    },
+    {
+      "way_id": 307784339,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 61.8
+    },
+    {
+      "way_id": 312474710,
+      "tags": {
+        "building": "commercial",
+        "building:levels": "2"
+      },
+      "area_m2": 3095.7
+    },
+    {
+      "way_id": 312475372,
+      "tags": {
+        "building": "house",
+        "building:levels": "2"
+      },
+      "area_m2": 254.0
+    },
+    {
+      "way_id": 313583800,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "7"
+      },
+      "area_m2": 275.0
+    },
+    {
+      "way_id": 313583801,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "7"
+      },
+      "area_m2": 329.9
+    },
+    {
+      "way_id": 326092531,
+      "tags": {
+        "building": "house",
+        "building:levels": "3"
+      },
+      "area_m2": 303.5
+    },
+    {
+      "way_id": 347718324,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "8"
+      },
+      "area_m2": 462.1
+    },
+    {
+      "way_id": 347718325,
+      "tags": {
+        "building": "yes",
+        "building:levels": "3"
+      },
+      "area_m2": 376.8
+    },
+    {
+      "way_id": 347718326,
+      "tags": {
+        "building": "school",
+        "building:levels": "3"
+      },
+      "area_m2": 1457.6
+    },
+    {
+      "way_id": 347718328,
+      "tags": {
+        "building": "yes",
+        "building:levels": "3"
+      },
+      "area_m2": 288.4
+    },
+    {
+      "way_id": 347977241,
+      "tags": {
+        "building": "industrial",
+        "building:levels": "5"
+      },
+      "area_m2": 554.9
+    },
+    {
+      "way_id": 347977242,
+      "tags": {
+        "building": "yes",
+        "building:levels": "4"
+      },
+      "area_m2": 492.0
+    },
+    {
+      "way_id": 347977244,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "5"
+      },
+      "area_m2": 405.4
+    },
+    {
+      "way_id": 347977248,
+      "tags": {
+        "building": "residential"
+      },
+      "area_m2": 176.6
+    },
+    {
+      "way_id": 347978307,
+      "tags": {
+        "building": "residential",
+        "building:levels": "3"
+      },
+      "area_m2": 582.3
+    },
+    {
+      "way_id": 351835622,
+      "tags": {
+        "building": "yes",
+        "building:levels": "4"
+      },
+      "area_m2": 241.3
+    },
+    {
+      "way_id": 368001730,
+      "tags": {
+        "building": "house",
+        "building:levels": "2"
+      },
+      "area_m2": 122.6
+    },
+    {
+      "way_id": 368001792,
+      "tags": {
+        "building": "house",
+        "building:levels": "1"
+      },
+      "area_m2": 83.6
+    },
+    {
+      "way_id": 371387457,
+      "tags": {
+        "building": "yes",
+        "building:levels": "3"
+      },
+      "area_m2": 173.6
+    },
+    {
+      "way_id": 371387462,
+      "tags": {
+        "building": "apartments"
+      },
+      "area_m2": 387.5
+    },
+    {
+      "way_id": 371387463,
+      "tags": {
+        "building": "apartments"
+      },
+      "area_m2": 233.2
+    },
+    {
+      "way_id": 371387464,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "4"
+      },
+      "area_m2": 430.8
+    },
+    {
+      "way_id": 379236031,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "5"
+      },
+      "area_m2": 218.4
+    },
+    {
+      "way_id": 379236032,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "4"
+      },
+      "area_m2": 416.8
+    },
+    {
+      "way_id": 379236033,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "6"
+      },
+      "area_m2": 266.9
+    },
+    {
+      "way_id": 379236034,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "4"
+      },
+      "area_m2": 311.0
+    },
+    {
+      "way_id": 379236035,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "3"
+      },
+      "area_m2": 153.6
+    },
+    {
+      "way_id": 379236036,
+      "tags": {
+        "building": "yes",
+        "building:levels": "2"
+      },
+      "area_m2": 86.2
+    },
+    {
+      "way_id": 379236037,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 260.1
+    },
+    {
+      "way_id": 379236038,
+      "tags": {
+        "building": "yes",
+        "building:levels": "4"
+      },
+      "area_m2": 343.9
+    },
+    {
+      "way_id": 379236039,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 130.4
+    },
+    {
+      "way_id": 379236592,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "7"
+      },
+      "area_m2": 248.5
+    },
+    {
+      "way_id": 379236593,
+      "tags": {
+        "building": "roof"
+      },
+      "area_m2": 211.2
+    },
+    {
+      "way_id": 379236594,
+      "tags": {
+        "building": "roof"
+      },
+      "area_m2": 28.7
+    },
+    {
+      "way_id": 379236596,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "7"
+      },
+      "area_m2": 257.3
+    },
+    {
+      "way_id": 379236597,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "5"
+      },
+      "area_m2": 334.1
+    },
+    {
+      "way_id": 379236598,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "4"
+      },
+      "area_m2": 704.8
+    },
+    {
+      "way_id": 379236599,
+      "tags": {
+        "building": "house",
+        "building:levels": "2"
+      },
+      "area_m2": 137.5
+    },
+    {
+      "way_id": 379236600,
+      "tags": {
+        "building": "house",
+        "building:levels": "2"
+      },
+      "area_m2": 147.0
+    },
+    {
+      "way_id": 379236601,
+      "tags": {
+        "building": "house",
+        "building:levels": "2"
+      },
+      "area_m2": 150.0
+    },
+    {
+      "way_id": 379236602,
+      "tags": {
+        "building": "yes",
+        "building:levels": "1"
+      },
+      "area_m2": 410.6
+    },
+    {
+      "way_id": 379236605,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "3"
+      },
+      "area_m2": 295.6
+    },
+    {
+      "way_id": 379236606,
+      "tags": {
+        "building": "yes",
+        "building:levels": "2"
+      },
+      "area_m2": 68.0
+    },
+    {
+      "way_id": 379236607,
+      "tags": {
+        "building": "yes",
+        "building:levels": "3"
+      },
+      "area_m2": 288.7
+    },
+    {
+      "way_id": 379236608,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "7",
+        "roof:shape": "hipped"
+      },
+      "area_m2": 232.7
+    },
+    {
+      "way_id": 379236609,
+      "tags": {
+        "building": "yes",
+        "building:levels": "2"
+      },
+      "area_m2": 80.4
+    },
+    {
+      "way_id": 379236610,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "8",
+        "roof:shape": "gabled"
+      },
+      "area_m2": 158.4
+    },
+    {
+      "way_id": 379236611,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "8",
+        "roof:shape": "gabled"
+      },
+      "area_m2": 163.0
+    },
+    {
+      "way_id": 379236612,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "8",
+        "roof:shape": "gabled"
+      },
+      "area_m2": 305.8
+    },
+    {
+      "way_id": 379236613,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "3"
+      },
+      "area_m2": 157.1
+    },
+    {
+      "way_id": 379236614,
+      "tags": {
+        "building": "yes",
+        "building:levels": "2"
+      },
+      "area_m2": 291.0
+    },
+    {
+      "way_id": 379236615,
+      "tags": {
+        "building": "yes",
+        "building:levels": "2"
+      },
+      "area_m2": 228.6
+    },
+    {
+      "way_id": 379236616,
+      "tags": {
+        "building": "yes",
+        "building:levels": "2"
+      },
+      "area_m2": 217.6
+    },
+    {
+      "way_id": 379236617,
+      "tags": {
+        "building": "residential",
+        "building:levels": "2"
+      },
+      "area_m2": 166.8
+    },
+    {
+      "way_id": 379236618,
+      "tags": {
+        "building": "residential",
+        "building:levels": "2"
+      },
+      "area_m2": 155.5
+    },
+    {
+      "way_id": 379236619,
+      "tags": {
+        "building": "yes",
+        "building:levels": "3"
+      },
+      "area_m2": 576.1
+    },
+    {
+      "way_id": 379236620,
+      "tags": {
+        "building": "yes",
+        "building:levels": "2"
+      },
+      "area_m2": 114.9
+    },
+    {
+      "way_id": 379236621,
+      "tags": {
+        "building": "yes",
+        "building:levels": "2"
+      },
+      "area_m2": 111.6
+    },
+    {
+      "way_id": 379236972,
+      "tags": {
+        "building": "yes",
+        "building:levels": "4"
+      },
+      "area_m2": 225.4
+    },
+    {
+      "way_id": 379236973,
+      "tags": {
+        "building": "yes",
+        "building:levels": "2"
+      },
+      "area_m2": 163.2
+    },
+    {
+      "way_id": 379236974,
+      "tags": {
+        "building": "yes",
+        "building:levels": "7"
+      },
+      "area_m2": 287.2
+    },
+    {
+      "way_id": 379236975,
+      "tags": {
+        "building": "yes",
+        "building:levels": "4"
+      },
+      "area_m2": 207.3
+    },
+    {
+      "way_id": 379236976,
+      "tags": {
+        "building": "yes",
+        "building:levels": "5"
+      },
+      "area_m2": 247.0
+    },
+    {
+      "way_id": 379236977,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 138.7
+    },
+    {
+      "way_id": 379236978,
+      "tags": {
+        "building": "yes",
+        "building:levels": "6"
+      },
+      "area_m2": 200.7
+    },
+    {
+      "way_id": 379236979,
+      "tags": {
+        "building": "yes",
+        "building:levels": "4"
+      },
+      "area_m2": 135.7
+    },
+    {
+      "way_id": 379236980,
+      "tags": {
+        "building": "yes",
+        "building:levels": "3"
+      },
+      "area_m2": 263.1
+    },
+    {
+      "way_id": 379236981,
+      "tags": {
+        "building": "yes",
+        "building:levels": "3"
+      },
+      "area_m2": 147.4
+    },
+    {
+      "way_id": 379236982,
+      "tags": {
+        "building": "yes",
+        "building:levels": "2"
+      },
+      "area_m2": 137.9
+    },
+    {
+      "way_id": 379236983,
+      "tags": {
+        "building": "residential",
+        "building:levels": "4"
+      },
+      "area_m2": 128.1
+    },
+    {
+      "way_id": 379236984,
+      "tags": {
+        "building": "residential",
+        "building:levels": "2"
+      },
+      "area_m2": 132.7
+    },
+    {
+      "way_id": 379236985,
+      "tags": {
+        "building": "residential",
+        "building:levels": "2"
+      },
+      "area_m2": 75.6
+    },
+    {
+      "way_id": 379236986,
+      "tags": {
+        "building": "residential",
+        "building:levels": "2"
+      },
+      "area_m2": 91.0
+    },
+    {
+      "way_id": 379236987,
+      "tags": {
+        "building": "residential",
+        "building:levels": "3"
+      },
+      "area_m2": 158.9
+    },
+    {
+      "way_id": 379236988,
+      "tags": {
+        "building": "residential",
+        "building:levels": "3"
+      },
+      "area_m2": 106.9
+    },
+    {
+      "way_id": 379236989,
+      "tags": {
+        "building": "residential",
+        "building:levels": "2"
+      },
+      "area_m2": 125.5
+    },
+    {
+      "way_id": 379237697,
+      "tags": {
+        "building": "yes",
+        "building:levels": "5"
+      },
+      "area_m2": 149.0
+    },
+    {
+      "way_id": 379237698,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "5"
+      },
+      "area_m2": 619.8
+    },
+    {
+      "way_id": 379237699,
+      "tags": {
+        "building": "apartments"
+      },
+      "area_m2": 357.0
+    },
+    {
+      "way_id": 435058838,
+      "tags": {
+        "building": "roof"
+      },
+      "area_m2": 28.2
+    },
+    {
+      "way_id": 435061927,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "6",
+        "building:material": "concrete",
+        "building:colour": "#CC7722"
+      },
+      "area_m2": 246.2
+    },
+    {
+      "way_id": 435064450,
+      "tags": {
+        "building": "school"
+      },
+      "area_m2": 302.4
+    },
+    {
+      "way_id": 435064451,
+      "tags": {
+        "building": "school"
+      },
+      "area_m2": 85.1
+    },
+    {
+      "way_id": 435064452,
+      "tags": {
+        "building": "school"
+      },
+      "area_m2": 639.5
+    },
+    {
+      "way_id": 435064453,
+      "tags": {
+        "building": "roof"
+      },
+      "area_m2": 25.0
+    },
+    {
+      "way_id": 467660777,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 304.2
+    },
+    {
+      "way_id": 467660778,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 171.7
+    },
+    {
+      "way_id": 467660780,
+      "tags": {
+        "building": "garages",
+        "building:levels": "1"
+      },
+      "area_m2": 311.7
+    },
+    {
+      "way_id": 467660781,
+      "tags": {
+        "building": "garages",
+        "building:levels": "1"
+      },
+      "area_m2": 230.0
+    },
+    {
+      "way_id": 467660790,
+      "tags": {
+        "building": "garages"
+      },
+      "area_m2": 461.2
+    },
+    {
+      "way_id": 467660792,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 273.0
+    },
+    {
+      "way_id": 467660794,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 28.9
+    },
+    {
+      "way_id": 467660795,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 28.0
+    },
+    {
+      "way_id": 467660796,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 135.7
+    },
+    {
+      "way_id": 467661750,
+      "tags": {
+        "building": "yes",
+        "building:levels": "1"
+      },
+      "area_m2": 230.4
+    },
+    {
+      "way_id": 467661751,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 100.6
+    },
+    {
+      "way_id": 467661753,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 128.8
+    },
+    {
+      "way_id": 467661754,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 49.2
+    },
+    {
+      "way_id": 467663063,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "4"
+      },
+      "area_m2": 661.5
+    },
+    {
+      "way_id": 467663064,
+      "tags": {
+        "building": "yes",
+        "building:levels": "4"
+      },
+      "area_m2": 161.9
+    },
+    {
+      "way_id": 467663065,
+      "tags": {
+        "building": "yes",
+        "building:levels": "3"
+      },
+      "area_m2": 166.6
+    },
+    {
+      "way_id": 467663066,
+      "tags": {
+        "building": "house",
+        "building:levels": "4"
+      },
+      "area_m2": 90.6
+    },
+    {
+      "way_id": 467663067,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 107.8
+    },
+    {
+      "way_id": 467663068,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 29.9
+    },
+    {
+      "way_id": 467663069,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 11.5
+    },
+    {
+      "way_id": 467663070,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 59.5
+    },
+    {
+      "way_id": 467663071,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 29.5
+    },
+    {
+      "way_id": 467663072,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 68.7
+    },
+    {
+      "way_id": 467663073,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 40.6
+    },
+    {
+      "way_id": 467663074,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 119.1
+    },
+    {
+      "way_id": 467663075,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 20.6
+    },
+    {
+      "way_id": 467663076,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 17.1
+    },
+    {
+      "way_id": 467663077,
+      "tags": {
+        "building": "yes",
+        "building:levels": "1"
+      },
+      "area_m2": 602.1
+    },
+    {
+      "way_id": 467663793,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 16.0
+    },
+    {
+      "way_id": 467663794,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 88.2
+    },
+    {
+      "way_id": 467663795,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 46.6
+    },
+    {
+      "way_id": 467663796,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 78.8
+    },
+    {
+      "way_id": 467663797,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 134.8
+    },
+    {
+      "way_id": 467663798,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 20.2
+    },
+    {
+      "way_id": 467663799,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 5.4
+    },
+    {
+      "way_id": 467663800,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 206.4
+    },
+    {
+      "way_id": 467663801,
+      "tags": {
+        "building": "yes",
+        "building:levels": "3"
+      },
+      "area_m2": 233.0
+    },
+    {
+      "way_id": 467663802,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 11.4
+    },
+    {
+      "way_id": 467663803,
+      "tags": {
+        "building": "yes",
+        "building:levels": "4"
+      },
+      "area_m2": 317.0
+    },
+    {
+      "way_id": 467663804,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 203.8
+    },
+    {
+      "way_id": 467663805,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 223.6
+    },
+    {
+      "way_id": 467663806,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 21.1
+    },
+    {
+      "way_id": 467663807,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 13.4
+    },
+    {
+      "way_id": 467663808,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 233.8
+    },
+    {
+      "way_id": 467667326,
+      "tags": {
+        "building": "yes",
+        "building:levels": "1"
+      },
+      "area_m2": 787.3
+    },
+    {
+      "way_id": 467667327,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 275.9
+    },
+    {
+      "way_id": 467667329,
+      "tags": {
+        "building": "yes",
+        "building:levels": "1"
+      },
+      "area_m2": 24.6
+    },
+    {
+      "way_id": 467669246,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "6"
+      },
+      "area_m2": 789.2
+    },
+    {
+      "way_id": 467669247,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "5"
+      },
+      "area_m2": 503.7
+    },
+    {
+      "way_id": 467669248,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 7.6
+    },
+    {
+      "way_id": 467669249,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 9.8
+    },
+    {
+      "way_id": 467669250,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 5.7
+    },
+    {
+      "way_id": 467669251,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 158.5
+    },
+    {
+      "way_id": 467669252,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 53.6
+    },
+    {
+      "way_id": 467669253,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 186.7
+    },
+    {
+      "way_id": 467669254,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 1452.4
+    },
+    {
+      "way_id": 467669255,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 40.6
+    },
+    {
+      "way_id": 467669257,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "8"
+      },
+      "area_m2": 346.4
+    },
+    {
+      "way_id": 467669258,
+      "tags": {
+        "building": "yes",
+        "building:levels": "2"
+      },
+      "area_m2": 129.6
+    },
+    {
+      "way_id": 467669259,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "4"
+      },
+      "area_m2": 350.1
+    },
+    {
+      "way_id": 473661960,
+      "tags": {
+        "building": "yes",
+        "building:levels": "2"
+      },
+      "area_m2": 943.3
+    },
+    {
+      "way_id": 473661961,
+      "tags": {
+        "building": "yes",
+        "building:levels": "2"
+      },
+      "area_m2": 210.9
+    },
+    {
+      "way_id": 473661962,
+      "tags": {
+        "building": "yes",
+        "building:levels": "2"
+      },
+      "area_m2": 70.0
+    },
+    {
+      "way_id": 473661963,
+      "tags": {
+        "building": "yes",
+        "building:levels": "2"
+      },
+      "area_m2": 95.7
+    },
+    {
+      "way_id": 473661964,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 10.6
+    },
+    {
+      "way_id": 496954194,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 150.0
+    },
+    {
+      "way_id": 533057515,
+      "tags": {
+        "building": "yes",
+        "building:levels": "2"
+      },
+      "area_m2": 527.5
+    },
+    {
+      "way_id": 533057517,
+      "tags": {
+        "building": "house",
+        "building:levels": "3"
+      },
+      "area_m2": 188.3
+    },
+    {
+      "way_id": 533057519,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "4"
+      },
+      "area_m2": 460.1
+    },
+    {
+      "way_id": 533057521,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "3"
+      },
+      "area_m2": 284.0
+    },
+    {
+      "way_id": 533057525,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "4"
+      },
+      "area_m2": 201.4
+    },
+    {
+      "way_id": 533057528,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "8"
+      },
+      "area_m2": 209.5
+    },
+    {
+      "way_id": 533057530,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "3"
+      },
+      "area_m2": 423.5
+    },
+    {
+      "way_id": 533057534,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 504.0
+    },
+    {
+      "way_id": 533057536,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 44.4
+    },
+    {
+      "way_id": 533057537,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 28.2
+    },
+    {
+      "way_id": 533057539,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 125.1
+    },
+    {
+      "way_id": 533057540,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 7.8
+    },
+    {
+      "way_id": 533057546,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "6"
+      },
+      "area_m2": 307.2
+    },
+    {
+      "way_id": 533057547,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "6"
+      },
+      "area_m2": 214.9
+    },
+    {
+      "way_id": 533057550,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "7"
+      },
+      "area_m2": 1839.6
+    },
+    {
+      "way_id": 533057554,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 212.8
+    },
+    {
+      "way_id": 533063072,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 141.3
+    },
+    {
+      "way_id": 533063959,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "7"
+      },
+      "area_m2": 784.2
+    },
+    {
+      "way_id": 533063960,
+      "tags": {
+        "building": "yes",
+        "building:levels": "1"
+      },
+      "area_m2": 187.7
+    },
+    {
+      "way_id": 533063961,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 52.9
+    },
+    {
+      "way_id": 533063962,
+      "tags": {
+        "building": "yes",
+        "building:levels": "1"
+      },
+      "area_m2": 138.2
+    },
+    {
+      "way_id": 533063964,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "4"
+      },
+      "area_m2": 149.3
+    },
+    {
+      "way_id": 533063965,
+      "tags": {
+        "building": "yes",
+        "building:levels": "2"
+      },
+      "area_m2": 713.5
+    },
+    {
+      "way_id": 533063966,
+      "tags": {
+        "building": "yes",
+        "building:levels": "2"
+      },
+      "area_m2": 185.7
+    },
+    {
+      "way_id": 533063967,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 74.2
+    },
+    {
+      "way_id": 533063972,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 50.7
+    },
+    {
+      "way_id": 533065567,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 93.8
+    },
+    {
+      "way_id": 533065574,
+      "tags": {
+        "building": "yes",
+        "building:levels": "2"
+      },
+      "area_m2": 104.7
+    },
+    {
+      "way_id": 535447436,
+      "tags": {
+        "building": "hotel",
+        "building:levels": "5",
+        "roof:shape": "flat"
+      },
+      "area_m2": 283.3
+    },
+    {
+      "way_id": 578452223,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "6",
+        "roof:shape": "flat",
+        "building:material": "plaster"
+      },
+      "area_m2": 757.8
+    },
+    {
+      "way_id": 578452226,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "10",
+        "roof:shape": "flat",
+        "building:material": "plaster"
+      },
+      "area_m2": 286.7
+    },
+    {
+      "way_id": 618064370,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 560.6
+    },
+    {
+      "way_id": 655419275,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 107.2
+    },
+    {
+      "way_id": 655419276,
+      "tags": {
+        "building": "yes",
+        "building:levels": "2"
+      },
+      "area_m2": 108.5
+    },
+    {
+      "way_id": 655419277,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "2"
+      },
+      "area_m2": 402.3
+    },
+    {
+      "way_id": 655419278,
+      "tags": {
+        "building": "residential",
+        "building:levels": "1"
+      },
+      "area_m2": 230.2
+    },
+    {
+      "way_id": 655419279,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 59.5
+    },
+    {
+      "way_id": 655419280,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 99.3
+    },
+    {
+      "way_id": 655419281,
+      "tags": {
+        "building": "residential",
+        "building:levels": "2"
+      },
+      "area_m2": 102.9
+    },
+    {
+      "way_id": 655419282,
+      "tags": {
+        "building": "residential",
+        "building:levels": "2"
+      },
+      "area_m2": 158.3
+    },
+    {
+      "way_id": 655419283,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "3",
+        "building:material": "brick",
+        "building:colour": "#FFD966"
+      },
+      "area_m2": 224.3
+    },
+    {
+      "way_id": 655419284,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "4",
+        "building:material": "brick",
+        "building:colour": "#FFD966"
+      },
+      "area_m2": 469.5
+    },
+    {
+      "way_id": 655419285,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "4"
+      },
+      "area_m2": 404.0
+    },
+    {
+      "way_id": 655419286,
+      "tags": {
+        "building": "residential",
+        "building:levels": "3",
+        "roof:shape": "gabled"
+      },
+      "area_m2": 86.5
+    },
+    {
+      "way_id": 655419287,
+      "tags": {
+        "building": "residential"
+      },
+      "area_m2": 102.1
+    },
+    {
+      "way_id": 655419288,
+      "tags": {
+        "building": "residential",
+        "building:levels": "3",
+        "roof:shape": "gabled"
+      },
+      "area_m2": 152.2
+    },
+    {
+      "way_id": 655419289,
+      "tags": {
+        "building": "yes",
+        "building:levels": "2"
+      },
+      "area_m2": 292.7
+    },
+    {
+      "way_id": 655419290,
+      "tags": {
+        "building": "yes",
+        "building:levels": "2"
+      },
+      "area_m2": 186.1
+    },
+    {
+      "way_id": 655419294,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 44.6
+    },
+    {
+      "way_id": 655419295,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 342.9
+    },
+    {
+      "way_id": 655419296,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 132.2
+    },
+    {
+      "way_id": 655419297,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "2"
+      },
+      "area_m2": 235.2
+    },
+    {
+      "way_id": 655419298,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "3"
+      },
+      "area_m2": 227.3
+    },
+    {
+      "way_id": 655419299,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "3"
+      },
+      "area_m2": 202.4
+    },
+    {
+      "way_id": 655419300,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 749.6
+    },
+    {
+      "way_id": 655419301,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 194.0
+    },
+    {
+      "way_id": 655419302,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "2"
+      },
+      "area_m2": 218.2
+    },
+    {
+      "way_id": 655419303,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 125.4
+    },
+    {
+      "way_id": 655419304,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 351.8
+    },
+    {
+      "way_id": 655419305,
+      "tags": {
+        "building": "yes",
+        "building:levels": "1"
+      },
+      "area_m2": 297.0
+    },
+    {
+      "way_id": 655419306,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 116.1
+    },
+    {
+      "way_id": 655419308,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "2"
+      },
+      "area_m2": 173.3
+    },
+    {
+      "way_id": 655419309,
+      "tags": {
+        "building": "residential",
+        "building:levels": "2"
+      },
+      "area_m2": 156.9
+    },
+    {
+      "way_id": 655419317,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 142.7
+    },
+    {
+      "way_id": 655419318,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 98.1
+    },
+    {
+      "way_id": 655419319,
+      "tags": {
+        "building": "residential",
+        "building:levels": "2"
+      },
+      "area_m2": 85.8
+    },
+    {
+      "way_id": 655419320,
+      "tags": {
+        "building": "residential",
+        "building:levels": "2"
+      },
+      "area_m2": 138.8
+    },
+    {
+      "way_id": 655419322,
+      "tags": {
+        "building": "apartments"
+      },
+      "area_m2": 125.1
+    },
+    {
+      "way_id": 655419329,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "4"
+      },
+      "area_m2": 170.0
+    },
+    {
+      "way_id": 655419330,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "4"
+      },
+      "area_m2": 166.2
+    },
+    {
+      "way_id": 655419331,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "2"
+      },
+      "area_m2": 159.7
+    },
+    {
+      "way_id": 655419337,
+      "tags": {
+        "building": "residential",
+        "building:levels": "3"
+      },
+      "area_m2": 170.4
+    },
+    {
+      "way_id": 655419338,
+      "tags": {
+        "building": "residential",
+        "building:levels": "2"
+      },
+      "area_m2": 139.1
+    },
+    {
+      "way_id": 655419339,
+      "tags": {
+        "building": "residential",
+        "building:levels": "3"
+      },
+      "area_m2": 128.6
+    },
+    {
+      "way_id": 655419340,
+      "tags": {
+        "building": "residential",
+        "building:levels": "3"
+      },
+      "area_m2": 134.1
+    },
+    {
+      "way_id": 655419341,
+      "tags": {
+        "building": "residential",
+        "building:levels": "3"
+      },
+      "area_m2": 108.3
+    },
+    {
+      "way_id": 655419343,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 63.5
+    },
+    {
+      "way_id": 655419344,
+      "tags": {
+        "building": "residential",
+        "building:levels": "2"
+      },
+      "area_m2": 85.8
+    },
+    {
+      "way_id": 655419345,
+      "tags": {
+        "building": "residential",
+        "building:levels": "1"
+      },
+      "area_m2": 102.6
+    },
+    {
+      "way_id": 655419346,
+      "tags": {
+        "building": "industrial",
+        "building:levels": "1"
+      },
+      "area_m2": 552.4
+    },
+    {
+      "way_id": 655419349,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "3.5"
+      },
+      "area_m2": 266.3
+    },
+    {
+      "way_id": 655419355,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 295.1
+    },
+    {
+      "way_id": 655419356,
+      "tags": {
+        "building": "apartments"
+      },
+      "area_m2": 347.5
+    },
+    {
+      "way_id": 655419357,
+      "tags": {
+        "building": "apartments"
+      },
+      "area_m2": 301.2
+    },
+    {
+      "way_id": 655419358,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "4"
+      },
+      "area_m2": 253.6
+    },
+    {
+      "way_id": 655419363,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 83.1
+    },
+    {
+      "way_id": 655419364,
+      "tags": {
+        "building": "residential",
+        "building:levels": "4"
+      },
+      "area_m2": 279.2
+    },
+    {
+      "way_id": 655419365,
+      "tags": {
+        "building": "residential",
+        "building:levels": "5"
+      },
+      "area_m2": 318.1
+    },
+    {
+      "way_id": 655419366,
+      "tags": {
+        "building": "residential",
+        "building:levels": "4"
+      },
+      "area_m2": 797.1
+    },
+    {
+      "way_id": 655419373,
+      "tags": {
+        "building": "residential",
+        "building:levels": "5"
+      },
+      "area_m2": 148.4
+    },
+    {
+      "way_id": 655419375,
+      "tags": {
+        "building": "residential",
+        "building:levels": "3",
+        "roof:shape": "gabled"
+      },
+      "area_m2": 120.2
+    },
+    {
+      "way_id": 655419376,
+      "tags": {
+        "building": "residential",
+        "building:levels": "2"
+      },
+      "area_m2": 102.0
+    },
+    {
+      "way_id": 655422092,
+      "tags": {
+        "building": "residential",
+        "building:levels": "3"
+      },
+      "area_m2": 105.0
+    },
+    {
+      "way_id": 655422093,
+      "tags": {
+        "building": "residential",
+        "building:levels": "3"
+      },
+      "area_m2": 155.4
+    },
+    {
+      "way_id": 655422094,
+      "tags": {
+        "building": "residential",
+        "building:levels": "3"
+      },
+      "area_m2": 124.3
+    },
+    {
+      "way_id": 655422095,
+      "tags": {
+        "building": "residential",
+        "building:levels": "2"
+      },
+      "area_m2": 245.2
+    },
+    {
+      "way_id": 655422097,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 70.4
+    },
+    {
+      "way_id": 655422099,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "4",
+        "roof:shape": "gabled"
+      },
+      "area_m2": 666.6
+    },
+    {
+      "way_id": 655422100,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 276.7
+    },
+    {
+      "way_id": 655422101,
+      "tags": {
+        "building": "yes",
+        "building:levels": "5"
+      },
+      "area_m2": 119.1
+    },
+    {
+      "way_id": 655422102,
+      "tags": {
+        "building": "garages",
+        "building:levels": "1"
+      },
+      "area_m2": 98.5
+    },
+    {
+      "way_id": 655422103,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "7",
+        "building:material": "metal",
+        "building:colour": "#FFE4C4"
+      },
+      "area_m2": 331.7
+    },
+    {
+      "way_id": 655422104,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "8",
+        "building:material": "brick",
+        "building:colour": "#CC7722"
+      },
+      "area_m2": 257.9
+    },
+    {
+      "way_id": 655422105,
+      "tags": {
+        "building": "commercial"
+      },
+      "area_m2": 374.3
+    },
+    {
+      "way_id": 655422106,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 172.2
+    },
+    {
+      "way_id": 655422107,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 75.5
+    },
+    {
+      "way_id": 655422108,
+      "tags": {
+        "building": "commercial"
+      },
+      "area_m2": 299.8
+    },
+    {
+      "way_id": 655422109,
+      "tags": {
+        "building": "commercial"
+      },
+      "area_m2": 286.4
+    },
+    {
+      "way_id": 655422110,
+      "tags": {
+        "building": "commercial"
+      },
+      "area_m2": 174.8
+    },
+    {
+      "way_id": 655422111,
+      "tags": {
+        "building": "industrial"
+      },
+      "area_m2": 781.6
+    },
+    {
+      "way_id": 655422112,
+      "tags": {
+        "building": "industrial"
+      },
+      "area_m2": 673.3
+    },
+    {
+      "way_id": 655422113,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "2"
+      },
+      "area_m2": 725.7
+    },
+    {
+      "way_id": 655422114,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "3"
+      },
+      "area_m2": 148.0
+    },
+    {
+      "way_id": 655422115,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "2"
+      },
+      "area_m2": 257.1
+    },
+    {
+      "way_id": 655422116,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 197.7
+    },
+    {
+      "way_id": 655422117,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 121.4
+    },
+    {
+      "way_id": 655422118,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 64.4
+    },
+    {
+      "way_id": 655422119,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 264.1
+    },
+    {
+      "way_id": 655422120,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 206.9
+    },
+    {
+      "way_id": 655422121,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 382.4
+    },
+    {
+      "way_id": 655422122,
+      "tags": {
+        "building": "yes",
+        "building:levels": "2"
+      },
+      "area_m2": 55.0
+    },
+    {
+      "way_id": 655422123,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "4"
+      },
+      "area_m2": 809.4
+    },
+    {
+      "way_id": 655422124,
+      "tags": {
+        "building": "apartments"
+      },
+      "area_m2": 761.7
+    },
+    {
+      "way_id": 655422125,
+      "tags": {
+        "building": "garages",
+        "building:levels": "1"
+      },
+      "area_m2": 281.3
+    },
+    {
+      "way_id": 865596795,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 181.5
+    },
+    {
+      "way_id": 865596796,
+      "tags": {
+        "building": "commercial",
+        "building:levels": "1"
+      },
+      "area_m2": 213.9
+    },
+    {
+      "way_id": 865596797,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 207.1
+    },
+    {
+      "way_id": 865596801,
+      "tags": {
+        "building": "garages",
+        "building:levels": "1"
+      },
+      "area_m2": 68.0
+    },
+    {
+      "way_id": 953410487,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 288.4
+    },
+    {
+      "way_id": 953410488,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 63.4
+    },
+    {
+      "way_id": 953410489,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 163.0
+    },
+    {
+      "way_id": 953410490,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 56.1
+    },
+    {
+      "way_id": 953410492,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 28.3
+    },
+    {
+      "way_id": 953410493,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 34.5
+    },
+    {
+      "way_id": 953410494,
+      "tags": {
+        "building": "yes",
+        "building:levels": "1"
+      },
+      "area_m2": 248.3
+    },
+    {
+      "way_id": 953410495,
+      "tags": {
+        "building": "yes",
+        "building:levels": "2"
+      },
+      "area_m2": 509.6
+    },
+    {
+      "way_id": 953410507,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 275.5
+    },
+    {
+      "way_id": 953707211,
+      "tags": {
+        "building": "yes",
+        "building:levels": "1"
+      },
+      "area_m2": 121.8
+    },
+    {
+      "way_id": 953707217,
+      "tags": {
+        "building": "yes",
+        "building:levels": "1"
+      },
+      "area_m2": 23.8
+    },
+    {
+      "way_id": 954174750,
+      "tags": {
+        "building": "garages"
+      },
+      "area_m2": 121.7
+    },
+    {
+      "way_id": 957909640,
+      "tags": {
+        "building": "service"
+      },
+      "area_m2": 10.1
+    },
+    {
+      "way_id": 958115637,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 28.6
+    },
+    {
+      "way_id": 959165482,
+      "tags": {
+        "building": "service",
+        "building:levels": "1"
+      },
+      "area_m2": 10.8
+    },
+    {
+      "way_id": 959165483,
+      "tags": {
+        "building": "yes",
+        "building:levels": "1"
+      },
+      "area_m2": 29.5
+    },
+    {
+      "way_id": 959739555,
+      "tags": {
+        "building": "detached",
+        "building:levels": "3",
+        "building:material": "brick",
+        "building:colour": "#FFD966"
+      },
+      "area_m2": 46.1
+    },
+    {
+      "way_id": 963380080,
+      "tags": {
+        "building": "yes",
+        "building:levels": "1"
+      },
+      "area_m2": 95.3
+    },
+    {
+      "way_id": 964876764,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 108.8
+    },
+    {
+      "way_id": 964876768,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 340.4
+    },
+    {
+      "way_id": 964876769,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 29.9
+    },
+    {
+      "way_id": 964943769,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "5",
+        "building:use": "residential"
+      },
+      "area_m2": 259.2
+    },
+    {
+      "way_id": 991108677,
+      "tags": {
+        "building": "yes",
+        "building:levels": "3"
+      },
+      "area_m2": 134.3
+    },
+    {
+      "way_id": 1010914155,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "9",
+        "roof:shape": "flat",
+        "building:material": "plaster"
+      },
+      "area_m2": 369.9
+    },
+    {
+      "way_id": 1010918282,
+      "tags": {
+        "building": "retail",
+        "building:levels": "1",
+        "roof:shape": "flat",
+        "building:material": "plaster"
+      },
+      "area_m2": 150.6
+    },
+    {
+      "way_id": 1013350106,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 67.7
+    },
+    {
+      "way_id": 1013350107,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 258.5
+    },
+    {
+      "way_id": 1033722443,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 15.6
+    },
+    {
+      "way_id": 1064761834,
+      "tags": {
+        "building": "yes",
+        "building:levels": "1"
+      },
+      "area_m2": 16.0
+    },
+    {
+      "way_id": 1074793338,
+      "tags": {
+        "building": "roof",
+        "roof:shape": "flat"
+      },
+      "area_m2": 1047.1
+    },
+    {
+      "way_id": 1121711563,
+      "tags": {
+        "building": "garages"
+      },
+      "area_m2": 111.3
+    },
+    {
+      "way_id": 1121711585,
+      "tags": {
+        "building": "garage"
+      },
+      "area_m2": 33.3
+    },
+    {
+      "way_id": 1190040127,
+      "tags": {
+        "building": "apartments"
+      },
+      "area_m2": 437.7
+    },
+    {
+      "way_id": 1202694481,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 9.6
+    },
+    {
+      "way_id": 1206044986,
+      "tags": {
+        "building": "garage"
+      },
+      "area_m2": 95.5
+    },
+    {
+      "way_id": 1206045981,
+      "tags": {
+        "building": "garage"
+      },
+      "area_m2": 134.2
+    },
+    {
+      "way_id": 1326091906,
+      "tags": {
+        "building": "yes"
+      },
+      "area_m2": 81.5
+    }
+  ]
+}

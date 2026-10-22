@@ -1,0 +1,24 @@
+SCALA PIANTA CENTRALE SU RETTANGOLO REALE
+================================================
+Input: C:\Users\Studio 01 MCA\Desktop\sito 270526\berra_pianta_centrale_isolata.dxf
+Output DXF: C:\Users\Studio 01 MCA\Desktop\sito 270526\berra_pianta_centrale_rettangolo_reale.dxf
+Output SVG: C:\Users\Studio 01 MCA\Desktop\sito 270526\berra_pianta_centrale_rettangolo_reale.svg
+
+BBox sorgente isolata: (3400.469780545009, 3954.375282168062, 7572.913700231609, 14487.01186077036)
+Rettangolo reale usato: (-69.91, -74.95, -5.05, 35.37)
+Output bbox: (-69.91, -74.95, -5.05, 35.37)
+
+Scala X: 0.015544846
+Scala Y: 0.010474111
+
+Nota:
+- Questo file usa solo la pianta centrale isolata.
+- Il lato sinistro reale ha una piccola differenza tra basso e alto (-69.91 / -70.07), non applicata in questa prima versione.
+- Se necessario, la correggiamo con punti omologhi.
+
+Entità per layer:
+- REAL_PIANTA_00_STRUTTURE_MURI: 51
+
+Entità per tipo:
+- CIRCLE: 3
+- LWPOLYLINE: 48

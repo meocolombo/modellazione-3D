@@ -1,0 +1,25 @@
+CALIBRAZIONE TAVOLA SINISTRA DXF -> ARCHICAD
+====================================================
+Input DXF: C:\Users\Studio 01 MCA\Desktop\sito 270526\BERRA PLANIMETRIE PT_P1_COPERTURA_AGGIORNATA_220626.dxf
+Output DXF: C:\Users\Studio 01 MCA\Desktop\sito 270526\berra_tavola_sinistra_calibrata_archicad.dxf
+Output SVG: C:\Users\Studio 01 MCA\Desktop\sito 270526\berra_tavola_sinistra_calibrata_archicad.svg
+
+BBox DXF sinistra: (3077.550253634036, 1086.045186813598, 7572.913700231609, 15859.86690767404)
+BBox Archicad rif: (-69.91, -74.95, -5.05, 35.37)
+Scala X: 0.014428199
+Scala Y: 0.007467262
+
+ATTENZIONE:
+- Questa calibrazione usa solo il bounding box, quindi puo deformare se la tavola DXF non corrisponde perfettamente all'ingombro Archicad.
+- Serve come prima verifica visiva. La calibrazione finale andra fatta con punti omologhi.
+
+Entita calibrate per layer:
+- CAL_00_STRUTTURE_MURI: 53
+- CAL_B_ASSITI: 142
+- CAL_B_COPERTURA: 11
+- CAL_B_TRAVI: 98
+- CAL_B_VISTE: 8
+- CAL_CAPRIATE_LEGNO: 73
+- CAL_C_MENSOLE: 6
+- CAL_METALLI: 58
+- CAL_MURATURE: 16

@@ -1,0 +1,27 @@
+TAVOLA SINISTRA NORMALIZZATA
+==================================
+Input: C:\Users\Studio 01 MCA\Desktop\sito 270526\BERRA PLANIMETRIE PT_P1_COPERTURA_AGGIORNATA_220626.dxf
+Output SVG: C:\Users\Studio 01 MCA\Desktop\sito 270526\berra_tavola_sinistra_normalizzata_punti.svg
+Entita: 465
+BBox: (3077.550253634036, 1086.045186813598, 7572.913700231609, 15859.86690767404)
+Scala preview px/unit: 0.11100716
+
+Layer:
+- 00_STRUTTURE MURI: 53
+- B_ASSITI: 142
+- B_COPERTURA: 11
+- B_TRAVI: 98
+- B_VISTE: 8
+- CAPRIATE_LEGNO: 73
+- C_MENSOLE: 6
+- METALLI: 58
+- MURATURE: 16
+
+Punti candidati automatici:
+- P1_SW_bbox: dxf_x=3077.550, dxf_y=1086.045
+- P2_SE_bbox: dxf_x=7572.914, dxf_y=1086.045
+- P3_NE_bbox: dxf_x=7572.914, dxf_y=15859.867
+- P4_NW_bbox: dxf_x=3077.550, dxf_y=15859.867
+- P5_CENTRO_bbox: dxf_x=5325.232, dxf_y=8472.956
+- P6_MID_SUD: dxf_x=5325.232, dxf_y=1086.045
+- P7_MID_NORD: dxf_x=5325.232, dxf_y=15859.867

@@ -1,0 +1,17 @@
+PIANTA CENTRALE ISOLATA
+==========================
+Input: C:\Users\Studio 01 MCA\Desktop\sito 270526\BERRA PLANIMETRIE PT_P1_COPERTURA_AGGIORNATA_220626.dxf
+Output SVG: C:\Users\Studio 01 MCA\Desktop\sito 270526\berra_pianta_centrale_isolata.svg
+Output DXF: C:\Users\Studio 01 MCA\Desktop\sito 270526\berra_pianta_centrale_isolata.dxf
+
+Crop X: 3000..7800
+Crop Y: 3800..13200
+Entita pianta: 51
+BBox pianta: (3400.469780545009, 3954.375282168062, 7572.913700231609, 14487.01186077036)
+
+Layer:
+- 00_STRUTTURE MURI: 51
+
+Tipi:
+- CIRCLE: 3
+- LWPOLYLINE: 48
