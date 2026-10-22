@@ -58,14 +58,24 @@ def trova_porta():
     sys.exit("Archicad non raggiungibile.")
 
 
-def id_esistenti(port):
+def chiave(d):
+    b, e = d["begCoordinate"], d["endCoordinate"]
+    return tuple(round(v, 3) for v in (b["x"], b["y"], e["x"], e["y"], d["zCoordinate"], d["width"], d["height"]))
+
+
+def chiave_piano(dati):
+    b, e = dati["begCoordinate"], dati["endCoordinate"]
+    return tuple(round(v, 3) for v in (b["x"], b["y"], e["x"], e["y"], dati["zCoordinate"], dati["width"], dati["height"]))
+
+
+def leggi_travi(port):
     el = post(port, {"command": "API.GetElementsByType", "parameters": {"elementType": "Beam"}})["elements"]
-    trovati = {}
+    out = []
     for i in range(0, len(el), 100):
-        for d in tapir(port, "GetDetailsOfElements", {"elements": el[i:i + 100]})["detailsOfElements"]:
-            if d.get("id", "").startswith(PREFISSO):
-                trovati[d["id"]] = d
-    return el, trovati
+        blocco = el[i:i + 100]
+        for e, d in zip(blocco, tapir(port, "GetDetailsOfElements", {"elements": blocco})["detailsOfElements"]):
+            out.append({"elementId": e["elementId"], "id": d.get("id", ""), "d": d["details"]})
+    return out
 
 
 def main():
@@ -77,31 +87,56 @@ def main():
     if a.applica and not a.copia_confermata:
         sys.exit("Rifiutato: --applica richiede --copia-confermata.")
     port = trova_porta()
-    _, esistenti = id_esistenti(port)
-    voci = [(PREFISSO + sigla, dati) for sigla, dati in piano()]
-    azioni = [{"id": i, "azione": "mantieni" if i in esistenti else "crea", "dati": d} for i, d in voci]
+    travi = leggi_travi(port)
+    azioni = []
+    for sigla, dati in piano():
+        eid = PREFISSO + sigla
+        k = chiave_piano(dati)
+        con_id = [t for t in travi if t["id"] == eid]
+        senza_id = [t for t in travi if t["id"] != eid and not t["id"].startswith(PREFISSO) and chiave(t["d"]) == k]
+        if len(con_id) > 1 or len(senza_id) > 1:
+            sys.exit(f"Duplicati per {eid}: {len(con_id)} con ID, {len(senza_id)} senza ID. Nessuna modifica.")
+        if con_id:
+            azioni.append({"id": eid, "azione": "mantieni", "dati": dati})
+        elif senza_id:
+            azioni.append({"id": eid, "azione": "assegna_id", "guid": senza_id[0]["elementId"], "dati": dati})
+        else:
+            azioni.append({"id": eid, "azione": "crea", "dati": dati})
     log = {"creato": datetime.now().isoformat(timespec="seconds"),
            "modalita": "APPLICA" if a.applica else "SIMULAZIONE", "stato_dati": "SEGNAPOSTO DA VERIFICARE",
-           "azioni": azioni, "esito": "non_scritto"}
-    da_creare = [x for x in azioni if x["azione"] == "crea"]
-    if a.applica and da_creare:
-        res = tapir(port, "CreateBeams", {"beamsData": [x["dati"] for x in da_creare]})["elements"]
-        if any("error" in r for r in res):
-            log["esito"] = "ERRORE in CreateBeams"
-            log["risposta"] = res
-        else:
+           "azioni": [{k: v for k, v in x.items() if k != "guid"} for x in azioni], "esito": "non_scritto"}
+    if a.applica:
+        da_creare = [x for x in azioni if x["azione"] == "crea"]
+        if da_creare:
+            res = tapir(port, "CreateBeams", {"beamsData": [x["dati"] for x in da_creare]})["elements"]
+            if any("error" in r for r in res):
+                log["esito"] = "ERRORE in CreateBeams"
+                log["risposta"] = res
+                da_creare = []
+            else:
+                for r, x in zip(res, da_creare):
+                    x["guid"] = r["elementId"]
+        da_id = [x for x in azioni if x["azione"] in ("crea", "assegna_id") and "guid" in x]
+        if da_id:
             pid = post(port, {"command": "API.GetPropertyIds", "parameters": {"properties": [
                 {"type": "BuiltIn", "nonLocalizedName": "General_ElementID"}]}})["properties"][0]["propertyId"]
-            vals = [{"elementId": r["elementId"], "propertyId": pid, "propertyValue": {"value": x["id"]}}
-                    for r, x in zip(res, da_creare)]
-            post(port, {"command": "API.SetPropertyValuesOfElements", "parameters": {"elementPropertyValues": vals}})
-            _, dopo = id_esistenti(port)
-            mancanti = [x["id"] for x in da_creare if x["id"] not in dopo]
+            vals = [{"elementId": x["guid"], "propertyId": pid,
+                     "propertyValue": {"type": "string", "status": "normal", "value": x["id"]}} for x in da_id]
+            try:
+                post(port, {"command": "API.SetPropertyValuesOfElements",
+                            "parameters": {"elementPropertyValues": vals}})
+            except RuntimeError as err:
+                log["esito"] = f"ERRORE assegnazione ID (travi create ma senza ID, rieseguire): {err}"
+        if log["esito"] == "non_scritto":
+            dopo = {t["id"] for t in leggi_travi(port)}
+            mancanti = [x["id"] for x in azioni if x["id"] not in dopo]
             log["esito"] = "OK" if not mancanti else f"ERRORE: ID non letti dopo la scrittura: {mancanti}"
     with open(a.log, "w", encoding="utf-8") as f:
         json.dump(log, f, ensure_ascii=False, indent=1)
-    print(json.dumps({"modalita": log["modalita"], "crea": len(da_creare),
-                      "mantieni": len(azioni) - len(da_creare), "esito": log["esito"]}, ensure_ascii=False))
+    cont = {n: sum(x["azione"] == n for x in azioni) for n in ("crea", "assegna_id", "mantieni")}
+    print(json.dumps({"modalita": log["modalita"], **cont, "esito": log["esito"]}, ensure_ascii=False))
+    if log["esito"].startswith("ERRORE"):
+        sys.exit(1)
 
 
 if __name__ == "__main__":
